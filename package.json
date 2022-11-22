@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@types/node": "18.11.9",
@@ -14,9 +15,16 @@
     "@types/react-dom": "18.0.8",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
+    "gray-matter": "^4.0.3",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
     "typescript": "4.8.4"
+  },
+  "homepage": "https://github.com/EUN-HA-CHOI/Next.js_Typescript_App.git",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
